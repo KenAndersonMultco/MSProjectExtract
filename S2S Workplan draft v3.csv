@@ -1,0 +1,189 @@
+ID,Name,Duration,Start_Date,Finish_Date,Start,Finish,Predecessors,Resource_Initials,Actual_Start,Actual_Finish,Actual Start,Actual Finish,Notes,WBS,WBS_Predecessors,WBS_Successors
+1,Plan & Architect,55 days,"August 14, 2017 8:00 AM","October 27, 2017 5:00 PM",42961,43035,,,Mon 8/14/17,NA,42961,,,1,,
+2,Business Processes,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.1,,
+3,Supplier Management,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.1.1,,
+4,Define as-is processes,5 days,"August 14, 2017 8:00 AM","August 18, 2017 5:00 PM",42961,42965,,,Mon 8/14/17,Fri 8/18/17,,,,1.1.1.1,,1.1.1.2
+5,Define to-be processes,35 days,"August 21, 2017 8:00 AM","October 6, 2017 5:00 PM",42968,43014,4,,Mon 8/21/17,NA,,,,1.1.1.2,1.1.1.1,1.1.5
+6,Sourcing,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.1.2,,
+7,Define as-is processes,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,,Mon 8/14/17,Fri 8/25/17,,,,1.1.2.1,,1.1.2.2
+8,Define to-be processes,30 days,"August 28, 2017 8:00 AM","October 6, 2017 5:00 PM",42975,43014,7,,Mon 8/28/17,NA,,,,1.1.2.2,1.1.2.1,1.1.5
+9,Contract Management,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.1.3,,
+10,Define as-is processes,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,,Mon 8/14/17,Fri 8/25/17,,,,1.1.3.1,,1.1.3.2
+11,Define to-be processes,30 days,"August 28, 2017 8:00 AM","October 6, 2017 5:00 PM",42975,43014,10,,Mon 8/28/17,NA,,,,1.1.3.2,1.1.3.1,1.1.5
+12,e-Procurement,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.1.4,,
+13,Define as-is processes,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,,Mon 8/14/17,Fri 8/25/17,,,,1.1.4.1,,1.1.4.2
+14,Define to-be processes,30 days,"August 28, 2017 8:00 AM","October 6, 2017 5:00 PM",42975,43014,13,,Mon 8/28/17,NA,,,,1.1.4.2,1.1.4.1,1.1.5
+15,Business process definition complete,0 days,"October 6, 2017 5:00 PM","October 6, 2017 5:00 PM",43014,43014,"5,8,11,14",,NA,NA,,,,1.1.5,"1.1.1.2,1.1.2.2,1.1.3.2,1.1.4.2","2.2.3.1,2.2.4.1,2.2.5.1,2.2.6"
+16,Data Conversion design,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,Mon 8/14/17,NA,,,,1.2,,
+17,Develop data conversion plan,5 days,"August 14, 2017 8:00 AM","August 18, 2017 5:00 PM",42961,42965,,"PD,KA,AH",Mon 8/14/17,Fri 8/18/17,,,Paul will take the lead.  Ken and Aleem will contribute as needed.,1.2.1,,1.2.7
+18,Develop strategy for converting suppliers & contracts to Workday,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,NA,NA,,,"IE will this be done via integration, or is a separate conversion needed.",1.2.2,,1.2.7
+19,Develop strategy for managing Jaggaer data throughout the process,40 days,"August 14, 2017 8:00 AM","October 6, 2017 5:00 PM",42961,43014,,,NA,NA,,,"Because Jaggaer is partially live, need to think through how conversion might impact or be impacted by work in progress.",1.2.3,,1.2.7
+20,Develop strategy for converting/migrating contract line items,20 days,"August 14, 2017 8:00 AM","September 8, 2017 5:00 PM",42961,42986,,,NA,NA,,,"Plan is to convert in WD, check with Aleem",1.2.4,,1.2.7
+21,Define requirements for sourcing records & documents,20 days,"August 14, 2017 8:00 AM","September 8, 2017 5:00 PM",42961,42986,,PD,NA,NA,,,,1.2.5,,1.2.7
+22,Data mapping,35 days,"August 14, 2017 8:00 AM","September 29, 2017 5:00 PM",42961,43007,,,NA,NA,,,,1.2.6,,
+23,Suppliers,35 days,"August 14, 2017 8:00 AM","September 29, 2017 5:00 PM",42961,43007,,PD,NA,NA,,,,1.2.6.1,,1.2.7
+24,Sourcing,35 days,"August 14, 2017 8:00 AM","September 29, 2017 5:00 PM",42961,43007,,PD,NA,NA,,,,1.2.6.2,,1.2.7
+25,Contract Header,35 days,"August 14, 2017 8:00 AM","September 29, 2017 5:00 PM",42961,43007,,"PD,KA,HL",NA,NA,,,,1.2.6.3,,1.2.7
+26,Contract Line,35 days,"August 14, 2017 8:00 AM","September 29, 2017 5:00 PM",42961,43007,,"AH,PD",NA,NA,,,Need to determine how contracts will be initially converted to WD,1.2.6.4,,1.2.7
+27,Data conversion design complete,0 days,"October 6, 2017 5:00 PM","October 6, 2017 5:00 PM",43014,43014,"17,18,19,20,21,23,24,25,26",,NA,NA,,,,1.2.7,"1.2.1,1.2.2,1.2.3,1.2.4,1.2.5,1.2.6.1,1.2.6.2,1.2.6.3,1.2.6.4","2.6.2.1.1,2.6.2.2.1,2.6.3.1.1,2.6.3.2.1,2.6.3.3.1"
+28,Integration Design,55 days,"August 14, 2017 8:00 AM","October 27, 2017 5:00 PM",42961,43035,,,Mon 8/14/17,NA,,,,1.3,,
+29,Jaggaer SOW,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,,Mon 8/14/17,Fri 8/25/17,,,,1.3.1,,"1.3.2,2.2.1"
+30,Define integration architecture,25 days,"August 28, 2017 8:00 AM","September 29, 2017 5:00 PM",42975,43007,29,,NA,NA,,,,1.3.2,1.3.1,"1.3.3.1,1.3.3.2,1.3.4.1,1.3.4.2,1.3.4.3"
+31,Outbound,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,,,NA,NA,,,,1.3.3,,
+32,Supplier,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,30,,NA,NA,,,"New suppliers, supplier updates",1.3.3.1,1.3.2,1.3.5
+33,Contract Header,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,30,,NA,NA,,,,1.3.3.2,1.3.2,1.3.5
+34,Inbound,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,,,NA,NA,,,,1.3.4,,
+35,Employees,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,30,,NA,NA,,,,1.3.4.1,1.3.2,1.3.5
+36,Cost Objects,20 days,"October 2, 2017 8:00 AM","October 27, 2017 5:00 PM",43010,43035,30,,NA,NA,,,,1.3.4.2,1.3.2,1.3.5
+37,Other financial codes?,10 days,"October 2, 2017 8:00 AM","October 13, 2017 5:00 PM",43010,43021,30,,NA,NA,,,,1.3.4.3,1.3.2,1.3.5
+38,Integration Design complete,0 days,"October 27, 2017 5:00 PM","October 27, 2017 5:00 PM",43035,43035,"32,33,35,36,37",,NA,NA,,,,1.3.5,"1.3.3.1,1.3.3.2,1.3.4.1,1.3.4.2,1.3.4.3","2.7.1.1,2.7.1.2,2.7.2.1,2.7.2.2,2.7.2.3"
+39,Prototype,115 days?,"August 14, 2017 8:00 AM","January 19, 2018 5:00 PM",42961,43119,,,NA,NA,,,,2,,
+40,General,45 days,"August 14, 2017 8:00 AM","October 13, 2017 5:00 PM",42961,43021,,,NA,NA,,,,2.1,,
+41,Define strategy for migrating configuration to production,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,,NA,NA,,,,2.1.1,,
+42,Set up new commodity codes & mapping in test,3 days,"September 25, 2017 8:00 AM","September 27, 2017 5:00 PM",43003,43005,,,NA,NA,,,,2.1.2,,2.1.3
+43,Set up new commodity codes & mapping in prod,12 days,"September 28, 2017 8:00 AM","October 13, 2017 5:00 PM",43006,43021,42,,NA,NA,,,,2.1.3,2.1.2,
+44,Jaggaer configuration,80 days,"August 14, 2017 8:00 AM","December 1, 2017 5:00 PM",42961,43070,,,NA,NA,,,,2.2,,
+45,Dynamic Qualification,30 days,"August 28, 2017 8:00 AM","October 6, 2017 5:00 PM",42975,43014,29,,NA,NA,,,,2.2.1,1.3.1,
+46,Total Supplier Manager,80 days,"August 14, 2017 8:00 AM","December 1, 2017 5:00 PM",42961,43070,,,NA,NA,,,,2.2.2,,
+47,TSM Configuration,80 days,"August 14, 2017 8:00 AM","December 1, 2017 5:00 PM",42961,43070,,,NA,NA,,,,2.2.2.1,,2.2.2.2
+48,Initial TSM configuration complete,0 days,"December 1, 2017 5:00 PM","December 1, 2017 5:00 PM",43070,43070,47,,NA,NA,,,,2.2.2.2,2.2.2.1,2.2.7
+49,Sourcing,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,,,NA,NA,,,,2.2.3,,
+50,Sourcing configuration,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,15,,NA,NA,,,,2.2.3.1,1.1.5,2.2.3.2
+51,Initial SD configuration complete,0 days,"November 17, 2017 5:00 PM","November 17, 2017 5:00 PM",43056,43056,50,,NA,NA,,,,2.2.3.2,2.2.3.1,2.2.7
+52,Total Contract Manager,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,,,NA,NA,,,,2.2.4,,
+53,TCM configuration,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,15,,NA,NA,,,,2.2.4.1,1.1.5,2.2.4.2
+54,Initial TCM configuration complete,0 days,"November 17, 2017 5:00 PM","November 17, 2017 5:00 PM",43056,43056,53,,NA,NA,,,,2.2.4.2,2.2.4.1,2.2.7
+55,Spend Director (ePro),30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,,,NA,NA,,,,2.2.5,,
+56,Spend director configuration,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,15,,NA,NA,,,,2.2.5.1,1.1.5,2.2.5.2
+57,Initial ePro configuration complete,0 days,"November 17, 2017 5:00 PM","November 17, 2017 5:00 PM",43056,43056,56,,NA,NA,,,,2.2.5.2,2.2.5.1,2.2.7
+58,Procurement Authority,30 days,"October 9, 2017 8:00 AM","November 17, 2017 5:00 PM",43017,43056,15,,NA,NA,,,,2.2.6,1.1.5,2.2.7
+59,Initial Jaggaer configuration complete,0 days,"December 1, 2017 5:00 PM","December 1, 2017 5:00 PM",43070,43070,"48,51,54,57,58",,NA,NA,,,,2.2.7,"2.2.2.2,2.2.3.2,2.2.4.2,2.2.5.2,2.2.6",2.3
+60,Jaggaer integration test 1,10 days,"December 4, 2017 8:00 AM","December 15, 2017 5:00 PM",43073,43084,59,,NA,NA,,,Complete walkthrough of processes with department users,2.3,2.2.7,2.4
+61,Modify and retest configuration as needed,25 days,"December 18, 2017 8:00 AM","January 19, 2018 5:00 PM",43087,43119,60,,NA,NA,,,,2.4,2.3,2.5
+62,Jaggaer initial configuration complete,0 days,"January 19, 2018 5:00 PM","January 19, 2018 5:00 PM",43119,43119,61,,NA,NA,,,,2.5,2.4,
+63,Data Conversion Development,85 days?,"August 14, 2017 8:00 AM","December 8, 2017 5:00 PM",42961,43077,,,NA,NA,,,,2.6,,
+64,Supplier,45 days?,"August 14, 2017 8:00 AM","October 13, 2017 5:00 PM",42961,43021,,,NA,NA,,,Much of this may be manual; rest would be done by Jaggaer,2.6.1,,
+65,Extract,10 days,"August 14, 2017 8:00 AM","August 25, 2017 5:00 PM",42961,42972,,AH,NA,NA,,,,2.6.1.1,,2.6.1.3
+66,Gather supplier contact info,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,SP,NA,NA,,,,2.6.1.2,,
+67,Transform,15 days,"August 28, 2017 8:00 AM","September 15, 2017 5:00 PM",42975,42993,65,SP,NA,NA,,,,2.6.1.3,2.6.1.1,2.6.1.4
+68,Load,20 days,"September 18, 2017 8:00 AM","October 13, 2017 5:00 PM",42996,43021,67,Jaggaer,NA,NA,,,Acounts for testing load process and resolving issues.,2.6.1.4,2.6.1.3,2.6.4
+69,Sourcing,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.2,,
+70,Records,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.2.1,,
+71,Extract,15 days,"October 9, 2017 8:00 AM","October 27, 2017 5:00 PM",43017,43035,27,AH,NA,NA,,,,2.6.2.1.1,1.2.7,2.6.2.1.2
+72,Transform,15 days,"October 30, 2017 8:00 AM","November 17, 2017 5:00 PM",43038,43056,71,tbd,NA,NA,,,,2.6.2.1.2,2.6.2.1.1,2.6.2.1.3
+73,Load,15 days,"November 20, 2017 8:00 AM","December 8, 2017 5:00 PM",43059,43077,72,tbd,NA,NA,,,,2.6.2.1.3,2.6.2.1.2,2.6.4
+74,Documents,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.2.2,,
+75,Extract,15 days,"October 9, 2017 8:00 AM","October 27, 2017 5:00 PM",43017,43035,27,tbd,NA,NA,,,,2.6.2.2.1,1.2.7,2.6.2.2.2
+76,Transform,15 days,"October 30, 2017 8:00 AM","November 17, 2017 5:00 PM",43038,43056,75,tbd,NA,NA,,,,2.6.2.2.2,2.6.2.2.1,2.6.2.2.3
+77,Load,15 days,"November 20, 2017 8:00 AM","December 8, 2017 5:00 PM",43059,43077,76,PD,NA,NA,,,,2.6.2.2.3,2.6.2.2.2,2.6.4
+78,Contracts,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.3,,
+79,Records,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.3.1,,
+80,Extract,15 days,"October 9, 2017 8:00 AM","October 27, 2017 5:00 PM",43017,43035,27,AH,NA,NA,,,,2.6.3.1.1,1.2.7,2.6.3.1.2
+81,Transform,15 days,"October 30, 2017 8:00 AM","November 17, 2017 5:00 PM",43038,43056,80,KA,NA,NA,,,,2.6.3.1.2,2.6.3.1.1,2.6.3.1.3
+82,Load,15 days,"November 20, 2017 8:00 AM","December 8, 2017 5:00 PM",43059,43077,81,PD,NA,NA,,,,2.6.3.1.3,2.6.3.1.2,2.6.4
+83,Line Items,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.3.2,,
+84,Extract,15 days,"October 9, 2017 8:00 AM","October 27, 2017 5:00 PM",43017,43035,27,AH,NA,NA,,,,2.6.3.2.1,1.2.7,2.6.3.2.2
+85,Transform,15 days,"October 30, 2017 8:00 AM","November 17, 2017 5:00 PM",43038,43056,84,tbd,NA,NA,,,,2.6.3.2.2,2.6.3.2.1,2.6.3.2.3
+86,Load,15 days,"November 20, 2017 8:00 AM","December 8, 2017 5:00 PM",43059,43077,85,tbd,NA,NA,,,,2.6.3.2.3,2.6.3.2.2,2.6.4
+87,Documents,45 days,"October 9, 2017 8:00 AM","December 8, 2017 5:00 PM",43017,43077,,,NA,NA,,,,2.6.3.3,,
+88,Extract,15 days,"October 9, 2017 8:00 AM","October 27, 2017 5:00 PM",43017,43035,27,tbd,NA,NA,,,,2.6.3.3.1,1.2.7,2.6.3.3.2
+89,Transform,15 days,"October 30, 2017 8:00 AM","November 17, 2017 5:00 PM",43038,43056,88,tbd,NA,NA,,,,2.6.3.3.2,2.6.3.3.1,2.6.3.3.3
+90,Load,15 days,"November 20, 2017 8:00 AM","December 8, 2017 5:00 PM",43059,43077,89,PD,NA,NA,,,,2.6.3.3.3,2.6.3.3.2,2.6.4
+91,Jaggaer conversion development complete,0 days,"December 8, 2017 5:00 PM","December 8, 2017 5:00 PM",43077,43077,"68,73,77,82,86,90",,NA,NA,,,,2.6.4,"2.6.1.4,2.6.2.1.3,2.6.2.2.3,2.6.3.1.3,2.6.3.2.3,2.6.3.3.3",
+92,Integration Development,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,,,NA,NA,,,,2.7,,
+93,Outbound,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,,,NA,NA,,,,2.7.1,,
+94,Supplier,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,38,,NA,NA,,,"New suppliers, supplier updates",2.7.1.1,1.3.5,
+95,Contract Header,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,38,,NA,NA,,,,2.7.1.2,1.3.5,
+96,Inbound,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,,,NA,NA,,,,2.7.2,,
+97,Employees,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,38,,NA,NA,,,,2.7.2.1,1.3.5,
+98,Cost Objects,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,38,,NA,NA,,,,2.7.2.2,1.3.5,
+99,Other financial codes?,30 days,"October 30, 2017 8:00 AM","December 8, 2017 5:00 PM",43038,43077,38,,NA,NA,,,,2.7.2.3,1.3.5,
+100,Winter holidays,10 days,"December 25, 2017 8:00 AM","January 5, 2018 5:00 PM",43094,43105,,,NA,NA,,,,3,,"4.1.1,4.1.2,4.1.3,4.3.1"
+101,Test,95 days,"January 8, 2018 8:00 AM","May 18, 2018 5:00 PM",43108,43238,,,NA,NA,,,,4,,
+102,Integration Test Preparation,20 days,"January 8, 2018 8:00 AM","February 2, 2018 5:00 PM",43108,43133,,,NA,NA,,,,4.1,,
+103,Identify test participants,20 days,"January 8, 2018 8:00 AM","February 2, 2018 5:00 PM",43108,43133,100,,NA,NA,,,,4.1.1,3,4.1.4
+104,Assign roles to test participants,20 days,"January 8, 2018 8:00 AM","February 2, 2018 5:00 PM",43108,43133,100,,NA,NA,,,,4.1.2,3,4.1.4
+105,Define test cases & test scripts,20 days,"January 8, 2018 8:00 AM","February 2, 2018 5:00 PM",43108,43133,100,,NA,NA,,,,4.1.3,3,4.1.4
+106,Test preparation complete,0 days,"February 2, 2018 5:00 PM","February 2, 2018 5:00 PM",43133,43133,"103,104,105",,NA,NA,,,,4.1.4,"4.1.1,4.1.2,4.1.3",4.2.1
+107,System Integration Testing,40 days,"February 5, 2018 8:00 AM","March 30, 2018 5:00 PM",43136,43189,,,NA,NA,,,,4.2,,
+108,Testing kick-off,5 days,"February 5, 2018 8:00 AM","February 9, 2018 5:00 PM",43136,43140,106,,NA,NA,,,,4.2.1,4.1.4,4.2.2
+109,Test Execution Cycle 1 - Business process execution,15 days,"February 12, 2018 8:00 AM","March 2, 2018 5:00 PM",43143,43161,108,,NA,NA,,,,4.2.2,4.2.1,4.2.3
+110,Test Execution Cycle 2 - Priority 1 integrations,10 days,"March 5, 2018 8:00 AM","March 16, 2018 5:00 PM",43164,43175,109,,NA,NA,,,,4.2.3,4.2.2,4.2.4
+111,Text Execution Cycle 3 - Priority 2 integrations,10 days,"March 19, 2018 8:00 AM","March 30, 2018 5:00 PM",43178,43189,110,,NA,NA,,,,4.2.4,4.2.3,4.2.5
+112,SIT complete,0 days,"March 30, 2018 5:00 PM","March 30, 2018 5:00 PM",43189,43189,111,,NA,NA,,,,4.2.5,4.2.4,"4.4.1,6.1"
+113,Data Conversion test,20 days,"January 8, 2018 8:00 AM","February 2, 2018 5:00 PM",43108,43133,,,NA,NA,,,,4.3,,
+114,Test planning,10 days,"January 8, 2018 8:00 AM","January 19, 2018 5:00 PM",43108,43119,100,,NA,NA,,,,4.3.1,3,"4.3.2,4.3.3.1,4.3.3.2,4.3.4.1,4.3.4.2,4.3.4.3"
+115,Supplier,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,Much of this may be manual; rest would be done by Jaggaer,4.3.2,4.3.1,
+116,Sourcing,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,,,NA,NA,,,,4.3.3,,
+117,Records,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,,4.3.3.1,4.3.1,
+118,Documents,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,,4.3.3.2,4.3.1,
+119,Contracts,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,,,NA,NA,,,,4.3.4,,
+120,Records,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,,4.3.4.1,4.3.1,
+121,Line Items,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,,4.3.4.2,4.3.1,
+122,Documents,10 days,"January 22, 2018 8:00 AM","February 2, 2018 5:00 PM",43122,43133,114,,NA,NA,,,,4.3.4.3,4.3.1,
+123,User Acceptance Test,35 days,"April 2, 2018 8:00 AM","May 18, 2018 5:00 PM",43192,43238,,,NA,NA,,,,4.4,,
+124,Create detailed user acceptance test plan,20 days,"April 2, 2018 8:00 AM","April 27, 2018 5:00 PM",43192,43217,112,,NA,NA,,,,4.4.1,4.2.5,4.4.2
+125,Conduct user accceptance test,10 days,"April 30, 2018 8:00 AM","May 11, 2018 5:00 PM",43220,43231,124,,NA,NA,,,"who participates, acceptance criteria",4.4.2,4.4.1,4.4.3
+126,Review test results and identify follow-on actions,5 days,"May 14, 2018 8:00 AM","May 18, 2018 5:00 PM",43234,43238,125,,NA,NA,,,,4.4.3,4.4.2,
+127,Org Change Management,205 days?,"August 14, 2017 8:00 AM","May 25, 2018 5:00 PM",42961,43245,,,NA,NA,,,,5,,
+128,Supplier Registration,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,place holder for all the work Shawn is doing,5.1,,
+129,Define production support model,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,KA,NA,NA,,,"who does what around roles, templates, custom fields, forms, libraries etc",5.2,,
+130,Define object migration processes,,,,#VALUE!,#VALUE!,,PD,NA,NA,,,"ie how templates, config get tracked and moved from test to prod",5.3,,
+131,Define admin processes,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,5.4,,
+132,User access requests,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,PD,NA,NA,,,"new accounts, roles, permissions",5.4.1,,
+133,Role structure change requests,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,PD,NA,NA,,,,5.4.2,,
+134,Contract template maintenance,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,HL,NA,NA,,,,5.4.3,,
+135,Contract clause library maintenance,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,HL,NA,NA,,,,5.4.4,,
+136,Contract custom field maintenance,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,HL,NA,NA,,,,5.4.5,,
+137,Sourcing library maintenance,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,CT,NA,NA,,,,5.4.6,,
+138,Sourcing template maintenance,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,CT,NA,NA,,,,5.4.7,,
+139,Review & update role definitions,,,,#VALUE!,#VALUE!,,PD,NA,NA,,,,5.5,,
+140,Communication plan,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,BZ,NA,NA,,,,5.6,,
+141,Training,205 days?,"August 14, 2017 8:00 AM","May 25, 2018 5:00 PM",42961,43245,,,NA,NA,,,,5.7,,
+142,Define training strategy,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,5.7.1,,
+143,Develop training plan,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,5.7.2,,
+144,Develop training content,35 days,"January 8, 2018 8:00 AM","February 23, 2018 5:00 PM",43108,43154,,,NA,NA,,,,5.7.3,,5.7.4.1
+145,Execute training plan,65 days,"February 26, 2018 8:00 AM","May 25, 2018 5:00 PM",43157,43245,,,NA,NA,,,,5.7.4,,
+146,Schedule training sessions,5 days,"February 26, 2018 8:00 AM","March 2, 2018 5:00 PM",43157,43161,144,,NA,NA,,,,5.7.4.1,5.7.3,5.7.4.2
+147,Enroll trainees,5 days,"March 5, 2018 8:00 AM","March 9, 2018 5:00 PM",43164,43168,146,,NA,NA,,,,5.7.4.2,5.7.4.1,5.7.4.3
+148,Conduct training sessions,55 days,"March 12, 2018 8:00 AM","May 25, 2018 5:00 PM",43171,43245,147,,NA,NA,,,,5.7.4.3,5.7.4.2,
+149,Deploy,225 days?,"August 14, 2017 8:00 AM","June 22, 2018 5:00 PM",42961,43273,,,NA,NA,,,,6,,
+150,Create detailed cutover plan,15 days,"April 2, 2018 8:00 AM","April 20, 2018 5:00 PM",43192,43210,112,,NA,NA,,,,6.1,4.2.5,"6.2,6.3,6.4,6.5,6.6"
+151,Configure production system,20 days,"April 23, 2018 8:00 AM","May 18, 2018 5:00 PM",43213,43238,150,,NA,NA,,,"After UAT, set up roles, workflows, templates etc. in production",6.2,6.1,
+152,Identify users & role assignments,20 days,"April 23, 2018 8:00 AM","May 18, 2018 5:00 PM",43213,43238,150,,NA,NA,,,,6.3,6.1,
+153,Identify users who need SciQuest Word App,20 days,"April 23, 2018 8:00 AM","May 18, 2018 5:00 PM",43213,43238,150,,NA,NA,,,,6.4,6.1,
+154,Deploy Word app,20 days,"April 23, 2018 8:00 AM","May 18, 2018 5:00 PM",43213,43238,150,,NA,NA,,,,6.5,6.1,
+155,Assign roles to users,20 days,"April 23, 2018 8:00 AM","May 18, 2018 5:00 PM",43213,43238,150,,NA,NA,,,,6.6,6.1,
+156,Execute Data Conversion,225 days?,"August 14, 2017 8:00 AM","June 22, 2018 5:00 PM",42961,43273,,,NA,NA,,,,6.7,,
+157,Suppliers,116 days,"January 12, 2018 8:00 AM","June 22, 2018 5:00 PM",43112,43273,,,NA,NA,,,,6.7.1,,
+158,Initial supplier load,17 days,"January 12, 2018 8:00 AM","February 5, 2018 5:00 PM",43112,43136,,,NA,NA,,,Much of this may be manual; rest would be done by Jaggaer,6.7.1.1,,
+159,Ready to load supplier data,0 days,"January 12, 2018 8:00 AM","January 12, 2018 8:00 AM",43112,43112,,,NA,NA,,,Need to id criteria for being ready.,6.7.1.1.1,,6.7.1.1.2
+160,Extract supplier data from SAP,5 days,"January 12, 2018 8:00 AM","January 18, 2018 5:00 PM",43112,43118,159,,NA,NA,,,,6.7.1.1.2,6.7.1.1.1,6.7.1.1.3
+161,Prepare upload spreadsheet for Jaggaer,5 days,"January 19, 2018 8:00 AM","January 25, 2018 5:00 PM",43119,43125,160,,NA,NA,,,,6.7.1.1.3,6.7.1.1.2,6.7.1.1.4
+162,Load supplier data in production,2 days,"January 26, 2018 8:00 AM","January 29, 2018 5:00 PM",43126,43129,161,,NA,NA,,,,6.7.1.1.4,6.7.1.1.3,6.7.1.1.5
+163,Validate supplier data in production and resolve issues,5 days,"January 30, 2018 8:00 AM","February 5, 2018 5:00 PM",43130,43136,162,,NA,NA,,,,6.7.1.1.5,6.7.1.1.4,
+164,Update suppliers with Workday IDS,6 days,"June 15, 2018 8:00 AM","June 22, 2018 5:00 PM",43266,43273,,,NA,NA,,,,6.7.1.2,,
+165,Workday supplier conversion complete,0 days,"June 15, 2018 8:00 AM","June 15, 2018 8:00 AM",43266,43266,,,NA,NA,,,,6.7.1.2.1,,6.7.1.2.2
+166,Extract suppliers and ids from workday,2 days,"June 15, 2018 8:00 AM","June 18, 2018 5:00 PM",43266,43269,165,tbd,NA,NA,,,,6.7.1.2.2,6.7.1.2.1,6.7.1.2.3
+167,Prepare supplier update spreadsheet for Jaggaer,1 day,"June 19, 2018 8:00 AM","June 19, 2018 5:00 PM",43270,43270,166,,NA,NA,,,,6.7.1.2.3,6.7.1.2.2,6.7.1.2.4
+168,Update suppliers with Workday ID in Jaggaer prod,1 day,"June 20, 2018 8:00 AM","June 20, 2018 5:00 PM",43271,43271,167,,NA,NA,,,,6.7.1.2.4,6.7.1.2.3,6.7.1.2.5
+169,Validate supplier update and resolve issues,2 days,"June 21, 2018 8:00 AM","June 22, 2018 5:00 PM",43272,43273,168,,NA,NA,,,,6.7.1.2.5,6.7.1.2.4,
+170,Sourcing,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.2,,
+171,Records,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.2.1,,
+172,Documents,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.2.2,,
+173,Procurement Authority,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.2.3,,
+174,Contracts,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.3,,
+175,Records,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.3.1,,
+176,Line Items,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.3.2,,
+177,Documents,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.7.3.3,,
+178,Deploy integrations to production environment,1 day?,"August 14, 2017 8:00 AM","August 14, 2017 5:00 PM",42961,42961,,,NA,NA,,,,6.8,,
+179,ERP Program Phases,348 days,"August 14, 2017 8:00 AM","December 12, 2018 5:00 PM",42961,43446,,,NA,NA,,,,7,,
+180,Pre-Work,33 days,"August 14, 2017 8:00 AM","September 27, 2017 5:00 PM",42961,43005,,,NA,NA,,,,7.1,,7.2
+181,Planning,25 days,"September 28, 2017 8:00 AM","November 1, 2017 5:00 PM",43006,43040,180,,NA,NA,,,,7.2,7.1,"7.4,7.3"
+182,High-level Jag Int Reqts Done,0 days,"November 1, 2017 5:00 PM","November 1, 2017 5:00 PM",43040,43040,181,,NA,NA,,,,7.3,7.2,
+183,Architect,65 days,"November 2, 2017 8:00 AM","January 31, 2018 5:00 PM",43041,43131,181,,NA,NA,,,,7.4,7.2,7.5
+184,Prototype,90 days,"February 1, 2018 8:00 AM","June 6, 2018 5:00 PM",43132,43257,183,,NA,NA,,,,7.5,7.4,7.6
+185,Test,85 days,"June 7, 2018 8:00 AM","October 3, 2018 5:00 PM",43258,43376,184,,NA,NA,,,,7.6,7.5,7.7
+186,Deploy,20 days,"October 4, 2018 8:00 AM","October 31, 2018 5:00 PM",43377,43404,185,,NA,NA,,,,7.7,7.6,"7.9,7.8[FS+1d]"
+187,ERP Go Live,0 days,"November 1, 2018 5:00 PM","November 1, 2018 5:00 PM",43405,43405,186FS+1d,,NA,NA,,,,7.8,7.7[FS+1d],
+188,Support,30 days,"November 1, 2018 8:00 AM","December 12, 2018 5:00 PM",43405,43446,186,,NA,NA,,,,7.9,7.7,
